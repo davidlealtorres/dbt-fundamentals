@@ -1,0 +1,18 @@
+
+
+============================== 2022-02-07 17:45:47.114856 | da266d70-76e9-40e3-813f-7b5f88b3283b ==============================
+17:45:47.114856 [info ] [MainThread]: Running with dbt=1.0.0
+17:45:47.115278 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/Users/david.leal/.dbt', project_dir=None, project_name=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+17:45:47.115479 [debug] [MainThread]: Tracking: tracking
+17:45:47.141082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d917190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d917d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d8e7610>]}
+17:51:34.501740 [debug] [MainThread]: Starter project path: /Users/david.leal/.dbt/versions/1.0.0/lib/python3.8/site-packages/dbt/include/starter_project
+17:51:36.934545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d8e7610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d9102e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d910580>]}
+
+
+============================== 2022-02-07 17:51:44.597185 | 32bae812-2c65-448e-80af-e00ebb7c6fd2 ==============================
+17:51:44.597185 [info ] [MainThread]: Running with dbt=1.0.0
+17:51:44.597613 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/Users/david.leal/.dbt', project_dir=None, project_name=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+17:51:44.597808 [debug] [MainThread]: Tracking: tracking
+17:51:44.621983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103db1220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d8ef40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103db1c70>]}
+17:51:52.566131 [info ] [MainThread]: A project called jaffle_shop already exists here.
+17:51:52.566900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d67e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103db7700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103db7760>]}
